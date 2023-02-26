@@ -21,8 +21,8 @@ body {
 }
 
 .card {
-    width: 319px;
-    height: 497px;
+    width: 300px;
+    height: 480px;
     background-color: hsl(0, 0%, 100%);
     padding: 15px;
     border-radius: 18px;
@@ -36,7 +36,7 @@ body {
 }
 
 .qr-code img {
-    width: 319px;
+    width: 300px;
     border-radius: 10px;
 }
 
