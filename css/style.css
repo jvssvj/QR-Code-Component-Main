@@ -52,18 +52,18 @@ p {
 
 .attribution {
     position: absolute;
-    top: 97%;
+    top: 96%;
+    padding-bottom: 10px;
     white-space: nowrap;
     font-size: 13px;
 }
 
-@media (max-height:799px) {
+@media (max-height:700px) {
     body {
         overflow: auto;
     }
 
     .attribution {
         top: 60em;
-        margin-bottom: 10px;
     }
 }
