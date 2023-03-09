@@ -64,6 +64,6 @@ p {
 
     .attribution {
         top: 60em;
-        padding-bottom: 1em;
+        margin-bottom: 10px;
     }
 }
