@@ -9,15 +9,14 @@
 body {
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    margin: 1em;
     overflow: hidden;
-    margin: 10px;
 }
 
 .container {
     height: 100vh;
     display: grid;
     place-items: center;
-    
 }
 
 .card {
@@ -53,19 +52,18 @@ p {
 
 .attribution {
     position: absolute;
-    top: 90%;
-    text-align: center;
+    top: 97%;
+    white-space: nowrap;
     font-size: 13px;
 }
 
-@media (max-height:720px) {
-    .attribution {
-        top: 95%;
+@media (max-height:799px) {
+    body {
+        overflow: auto;
     }
-}
 
-@media (max-height:630px) {
     .attribution {
-        display: none;
+        top: 60em;
+        padding-bottom: 1em;
     }
 }
