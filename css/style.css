@@ -35,11 +35,6 @@ body {
     margin: 1em;
 }
 
-.card__qr__code {
-    width: 100%;
-    max-width: 289px;
-}
-
 .card__qr__code__img {
     width: 100%;
     border-radius: .6rem;
@@ -49,13 +44,13 @@ body {
     text-align: center;
 }
 
-.card__txt__title {
+.card__txt__t {
     padding-top: 1em;
     font-size: 1.44rem;
     color: var(--DarkBlue);
 }
 
-.card__txt__paragraph {
+.card__txt__p {
     padding: 1em 1.334em 1.334em 1.334em;
     color: var(--GrayishBlue);
 }
